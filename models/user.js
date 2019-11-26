@@ -3,8 +3,7 @@ const SALT_ROUNDS = process.env.SALT_ROUNDS || 12;
 
 module.exports = class User {
     constructor() {
-        this.firstName = null;
-        this.lastName = null;
+        this.id = null;
         this.email = null;
         this.password = null;
     }
